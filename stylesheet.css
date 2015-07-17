@@ -2,7 +2,37 @@
 
 * {
 	color: #00FF00;
-	background-color: #000000;
+	font-weight: normal;
 	text-align: center;
-	font-family: Courier;
+	font-family: Sans-Serif;
 }
+
+html {
+	background-color: #060606;
+}
+
+h1 {
+	font-size: 5em;
+	background-color: #151515;
+}
+
+td {
+	display: block;
+}
+
+div {
+	height: 1.25em;
+	background-color: #060606;
+}
+
+a {
+	font-size: 3em;
+	background-color: #151515;
+	text-decoration: none;
+	color: #00FF00;
+}
+
+a:hover {
+	color: #FF0000;
+}
+
