@@ -2,12 +2,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>welcome</title>
+		<title>home</title>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="media/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="media/coddinkn.ico" type="image/x-icon">
+		<link rel="icon" href="media/coddinkn.ico" type="image/x-icon">
 	</head>
 	<body>
+		<form method="get" action="https://www.google.com/search">
+			<input type="text" placeholder="search the web with Google" name="q" tabindex="1" value=""/>
+		</form>
 		<table>
 			<tr>	
 				<td><a href="https://www.github.com/coddinkn"><img src="media/GitHub.png"/></a></td>
@@ -15,9 +18,20 @@
 				<td><a href="https://www.youtube.com"><img src="media/YouTube.png"/></a></td>
 			</tr>
 			<tr>
-				<td><a href="https://en.wikipedia.org/wiki/Main_Page"><img src="media/Wikipedia.png"/></a></td>
 				<td><a href="https://www.reddit.com/r/mechanicalkeyboards"><img src="media/MechanicalKeyboards.png"/></a></td>
 				<td><a href="clarkson.html"><img src="media/Clarkson.png"/></a></td>
+				<script type="text/javascript">
+					function random_site(){
+    					var random_link = Math.round(Math.random() * 2);
+    					var links = [
+										"https://www.xkcd.com",
+										"http://www.smbc-comics.com",
+										"http://www.escapistmagazine.com/videos/view/zero-punctuation"
+									];
+						window.location = links[random_link];	
+					}
+				</script>
+				<td><img src="media/Random.png" onclick="random_site()"/></td>
 			</tr>
 		</table>
 	</body>
