@@ -1,7 +1,19 @@
 /* style sheet for my start page */
 
 * {
-/*	border: 1px black dashed; */
+	outline: none;
+}
+
+#clarkson_table {
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+	margin-top: 15%;
+}
+
+#clarkson_html {
+	background-color: #004F42;
 }
 
 html {
@@ -32,4 +44,5 @@ table {
 
 img {
 	height: 150px;
+	max-width: 250px;
 }
